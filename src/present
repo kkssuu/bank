@@ -1,0 +1,13 @@
+<div style="
+                    background-color: crimson;
+                    height: 50px;
+                    display: flex;
+                    ">
+        <div style="width:100%; height:100%; text-align: right;">
+            <button style="float:left">instagram</button>
+            <button style="height:100%;align-items: center;">알림</button>
+            <label style="height:100%;align-items: center;background-color: azure;">야호</label>
+            <button style>DM</button>
+        </div>
+        <br>
+    </div>
