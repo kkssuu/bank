@@ -9,12 +9,13 @@
 
 <body>
 
+    <!--MASTER-->
     <div style="
-    height:100vw;
+    height:100vh;
     width: 600px;
     margin:0 auto;
     ">
-
+        <!--BANK_NAME-->
         <div style="
         text-align: left;
         ">
@@ -23,34 +24,31 @@
             </label>
         </div>
 
-        <div style="
-        
-        height: 40px;
+        <!--USER_INFO-->
+        <div style="background-color: red;
         width:100%;
-        display:flex;
+        height:40px;
+        display : flex;
+        align-items: center;
+        justify-content: right;
         ">
-            <div style="
-            
-            width:100%; 
-            height:100%; 
-            text-align: right;
-            ">
-            강동수님 안녕하세요.
-                <button style="border-radius: 50%;
+            강동수님 안녕하세요
+            <button style="
+                border-radius: 50%;
                 height: 24px;
                 width: 24px;
                 background-image: url(https://github.com/kkssuu/bank/blob/main/account_circle_FILL0_wght400_GRAD0_opsz24.png?raw=true);
                 background-repeat:no-repeat;
                 background-position: center;
                 background-size: 150%;
-                align-items: center;
-                ">
-                </button>
-            </div>
+                margin-left:4px;
+                margin-right:4px;
+            ">
+
+            </button>
         </div>
 
-        
-
+        <!--ACCOUNT_INFO-->
         <div style="background-color: yellow;
         height:250px;
         width:580px;
@@ -75,8 +73,8 @@
                 background-size: 150%;
                 background-color:yellow;
                 border-style: none;">
-                
-            </button>
+
+                </button>
             </div>
             <div style="text-align:center;
             height:73%;
@@ -95,13 +93,13 @@
                 height:30px;
                 width:50px;
                 ">
-                카드
+                    카드
                 </button>
                 <button id="id_transfer" style="
                 height:30px;
                 width:50px;
                 ">
-                이체
+                    이체
                 </button>
             </div>
         </div>
